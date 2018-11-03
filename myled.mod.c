@@ -24,6 +24,7 @@ __used
 __attribute__((section("__versions"))) = {
 	{ 0x367398b6, __VMLINUX_SYMBOL_STR(module_layout) },
 	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
 };
 
 static const char __module_depends[]
@@ -32,4 +33,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "E6D3A3A8ABDAA328F8E4E29");
+MODULE_INFO(srcversion, "79091387ACC0A95B34C35B6");
