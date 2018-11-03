@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/myrobosys2018/myled.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Documents/myrobosys2018/myled.ko /home/pi/Documents/myrobosys2018/myled.o /home/pi/Documents/myrobosys2018/myled.mod.o ;  true
